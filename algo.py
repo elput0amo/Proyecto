@@ -13,14 +13,33 @@ def calcular_izquierda(A,w,t,k,x,phi):
     return y_izquierda
 #las operaciones cambian dependiendo de a donde se propage la onda
 
-direccion =  (input(f"Direccion de propagación (Izquierda/Derecha): "))
-#la direccion hace falta para definir la operacion despues
+while True:
+  try:
+    direccion = input("Direccion de propagación (Izquierda/Derecha): ")
+    if direccion=="Izquierda" or direccion=="Derecha":
+      
+      break;
+    else:
+      print(f"({direccion}) no es un comando valido, porfavor escribe (Izquierda) o (Derecha): ")      
+  except:
+    continue
+#la direccion hace falta para definir la operacion despues, he tardado demasiado en aprender como hacer que te pida otro valor si no vale el que has escrito
 
 #me he emocionado y he decidido hacer dos versiones, una mas facil y comprensible, y otra mas optima y dificil de usar.
 #seria mas facil hacerlo en diferentes codigos en el mismo repositorio pero queria ver si podia hacerlo
 
-version= input(f"¿Quieres la version facil o complicada?: ")
-if version == "facil":
+while True:
+  try:
+    version = input(f"¿Quieres la version (Facil) o (Complicada)?: ")
+    if version=="Facil" or version=="Complicada":
+      
+      break;
+    else:
+      print(f"({version}) no es valido, aprende a usar mayusculas, porfavor escribe (Izquierda) o (Derecha): ")      
+  except:
+    continue
+  
+if version == "Facil":
 
 #aqui voy a pedir todos los valores necesarios para poder calcular
     amplitud = float (input(f"Amplitud (m): "))
