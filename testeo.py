@@ -8,3 +8,4 @@ while True:
       print(f"{version} no es un comando, aprende a usar mayusculas, porfavor escribe (Izquierda) o (Derecha)")      
   except:
     continue
+#final

@@ -92,5 +92,6 @@ else:
         print (f"Tu elongación en el momento {t}s de la posicion {x}m es de {y_izquierda:.2f} metros")
         print (f"y({x},{t})={y_izquierda}m")
 #esto es para ver si se ha guardado en gihub
+#final
 
 
