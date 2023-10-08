@@ -1,4 +1,4 @@
-#lo primero que hay que hacer es importar para poder usar elementos como pi y hacer ioeraciones como seno o coseno
+#lo primero que hay que hacer es importar para poder usar elementos como pi y hacer operaciones como seno o coseno
 import math 
 
 #para mayor facilidad he usado los simbolos de los valores al crear las funciones
