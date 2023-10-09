@@ -33,7 +33,7 @@ while True:
     version = input(f"¿Quieres la version (Facil) o (Complicada)?: ")
     if version=="Facil" or version=="Complicada":
       
-      break;
+     break;
     else:
       print(f"({version}) no es valido, aprende a usar mayusculas, porfavor escribe (Izquierda) o (Derecha): ")      
   except:
@@ -48,7 +48,7 @@ if version == "Facil":
 #aqui simplemente he multiplicado los valores de los radianes por pi para que se puedan operar
 
     tiempo = float (input(f"Instante de oscilacion (s): "))
-    k = float (input(f"Numero de ondas (rad/m): "))
+    k = float (input(f"Numero de ondas (pi*rad/m): "))
     k2 = k* math.pi 
 #es lo mismo que antes
     posicion= float (input(f"Posicion inicial (m): "))
